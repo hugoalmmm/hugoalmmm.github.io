@@ -1,0 +1,16 @@
+body {
+    background-color: tomato;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+}   
+
+h1:hover, body:hover {
+    color: tomato;
+    background-color: white;
+}
