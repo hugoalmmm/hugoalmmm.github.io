@@ -12,7 +12,7 @@ jobs:
       - name: testing ls
         run: ls -al
       - name : Checkout
-        uses : actions/ccheckout@v4
+        uses : actions/checkout@v4
       - name: testing ls
         run: ls -al
         
